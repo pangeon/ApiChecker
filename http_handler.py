@@ -8,7 +8,9 @@ def select_api_enpoint():
     if choice == str(1):
         return API.settings
     elif choice == str(2):
-        return API.login 
+        return API.login
+    elif choice == str(3):
+        return API.pending_payment  
     else:
         url = input("Enter manually URL: ")
         return url 
