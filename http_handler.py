@@ -10,7 +10,8 @@ def select_api_enpoint():
     elif choice == str(2):
         return API.login 
     else:
-        url = None 
+        url = input("Enter manually URL: ")
+        return url 
 
 
 def send_GET_request():
